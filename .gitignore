@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Environment Variables
+.env
+backend/.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project Specific
+# Ignore uploaded resumes/data
+backend/uploaded_resumes/*
+!backend/uploaded_resumes/.gitkeep
+
+# Logs
+*.log
+logs/
